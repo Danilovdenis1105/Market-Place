@@ -1,2 +1,13 @@
 $grey : #eef1f3;
 $blue : #0674ec;
+$text : #555555;
+
+@mixin f700{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+}
+
+@mixin f500{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+}

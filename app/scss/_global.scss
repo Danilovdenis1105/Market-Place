@@ -1,3 +1,4 @@
+@import 'vars';
 html{
 	box-sizing: border-box;
 }
@@ -9,8 +10,11 @@ html{
 }
 
 body{
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Quicksand-Regular', sans-serif;
 	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+	color: $text;
 }
 a{
 	display: inline-block;
