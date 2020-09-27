@@ -22,7 +22,7 @@
 							</a>
 						</div>
 						<div class="header__top-box">
-							<a class="header__text" href="#">
+							<a class="header__btn" href="#">
 								Become a Seller
 							</a>
 							<div class="header__icons">
@@ -38,13 +38,11 @@
 							</div>
 							<div class="avatar__box">
 								<a class="avatar__link" href="#">
-									<div class="avatar__link-img" style="background-image:url(images/content/user.jpg);"></div>
+									<img src="images/content/user.jpg" alt="">
 								</a>
 								<div class="avatar__info">
-									<a href="#">
-										<div class="avatar-text">
-											Taofiq Hakim
-										</div>
+									<a class="avatar-name" href="#">
+										Taofiq Hakim
 									</a>
 									<div class="avatar__money">
 										$20.45
@@ -89,7 +87,7 @@
 							</ul>
 						</nav>
 						<div class="search__inner-form">
-							<form>
+							<form class="header__form">
 								<input type="text" placeholder="Search product here..." required>
 								<button type="submit">
 									<img src="images/content/magnifier.png" alt="">
@@ -108,9 +106,9 @@
 						Create Your Own <br>
 						<span> Digital Product Marketplace</span>
 					</div>
-					<div class="search__inner-text">
+					<p class="search__inner-text">
 						MartPlace is the most powerful, & customizable template for Easy Digital Downloads Products
-					</div>
+					</p>
 					<div class="search__btn-inner">
 						<a class=" search__btn" href="#">
 							<span> View All Products</span>
@@ -119,6 +117,14 @@
 							<span> Popular Products</span>
 						</a>
 					</div>
+					<form class="search__form">
+						<input type="text" placeholder="Search your products...">
+						<select size="1">
+							<option value="All Categories">All Categories</option>
+							<option value="Other Categories">Other Categories</option>
+						</select>
+						<button type="submit">Search Now</button>
+					</form>
 				</div>
 			</div>
 		</section>
@@ -132,33 +138,33 @@
 						<div class="reason__item-title">
 							Best UX Research
 						</div>
-						<div class="reason__item-text">
+						<p class="reason__item-text">
 							Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
 							the mattis, leo quam aliquet diam
 							congue is laoreet elit metus.
-						</div>
+						</p>
 					</div>
 					<div class="reason__item">
 						<img src="images/reason/Layer 66.png" alt="">
 						<div class="reason__item-title">
 							Best UX Research
 						</div>
-						<div class="reason__item-text">
+						<p class="reason__item-text">
 							Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
 							the mattis, leo quam aliquet diam
 							congue is laoreet elit metus.
-						</div>
+						</p>
 					</div>
 					<div class="reason__item">
 						<img src="images/reason/Layer 67.png" alt="">
 						<div class="reason__item-title">
 							Best UX Research
 						</div>
-						<div class="reason__item-text">
+						<p class="reason__item-text">
 							Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
 							the mattis, leo quam aliquet diam
 							congue is laoreet elit metus.
-						</div>
+						</p>
 					</div>
 				</div>
 			</div>
@@ -172,30 +178,32 @@
 					</div>
 					<div class="featured__slider-inner">
 						<div class="featured__slider-item">
-							<img src="images/featured/img.jpg" alt="">
+							<div class="product__image-box">
+								<img src="images/featured/img.jpg" alt="">
+								<div class="works__inner-link">
+									<a href="#">More Info</a>
+									<a href="#">Live Demo</a>
+								</div>
+							</div>
 							<div class="about-item">
 								<div class="about-item__title">
 									One Page Resume Template
 								</div>
-
 								<a class="about-item__link user" href="#">
 									<img class="user-img" src="images/featured/user.jpg" alt="">
 									<span>AazzTech</span>
 								</a>
-
-
 								<a class="about-item__link cattegory" href="#">
 									<img class="cattegory-img" src="images/featured/Forma 1 copy 3.png" alt="">
 									<span>WordPress</span>
 								</a>
-
-								<div class="about-item__text">
+								<p class="about-item__text">
 									Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
 									aliquet congue
 									placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
 									aliquet congue justo
 									ut scelerisque.
-								</div>
+								</p>
 								<div class="about-item__tags">
 									<a href="#">
 										website
@@ -208,46 +216,51 @@
 									</a>
 								</div>
 								<div class="about-item__info">
-									<a class="info__prise" href="#">
-										$10 - $50
-									</a>
-									<div class="info__likes">
-										<img src="" alt="">
+									<div class="about-item__info__inner">
+										<a class="info__prise" href="#">
+											$10 - $50
+										</a>
+										<div class="info__likes">
+											<img src="images/featured/heart.png" alt="">
+											<span>46</span>
+										</div>
+										<div class="info__basket">
+											<img src="images/featured/cart.png" alt="">
+											<span>634</span>
+										</div>
 									</div>
-									<div class="info__basket">
-										<img src="" alt="">
-									</div>
-								</div>
-								<div class="about-item__star">
 									<div class="rate-star"></div>
 								</div>
 							</div>
 						</div>
+
 						<div class="featured__slider-item">
-							<img src="images/featured/img.jpg" alt="">
+							<div class="product__image-box">
+								<img src="images/featured/img.jpg" alt="">
+								<div class="works__inner-link">
+									<a href="#">More Info</a>
+									<a href="#">Live Demo</a>
+								</div>
+							</div>
 							<div class="about-item">
 								<div class="about-item__title">
 									One Page Resume Template
 								</div>
-
 								<a class="about-item__link user" href="#">
 									<img class="user-img" src="images/featured/user.jpg" alt="">
 									<span>AazzTech</span>
 								</a>
-
-
 								<a class="about-item__link cattegory" href="#">
 									<img class="cattegory-img" src="images/featured/Forma 1 copy 3.png" alt="">
 									<span>WordPress</span>
 								</a>
-
-								<div class="about-item__text">
+								<p class="about-item__text">
 									Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
 									aliquet congue
 									placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
 									aliquet congue justo
 									ut scelerisque.
-								</div>
+								</p>
 								<div class="about-item__tags">
 									<a href="#">
 										website
@@ -260,46 +273,51 @@
 									</a>
 								</div>
 								<div class="about-item__info">
-									<a class="info__prise" href="#">
-										$10 - $50
-									</a>
-									<div class="info__likes">
-										<img src="" alt="">
+									<div class="about-item__info__inner">
+										<a class="info__prise" href="#">
+											$10 - $50
+										</a>
+										<div class="info__likes">
+											<img src="images/featured/heart.png" alt="">
+											<span>46</span>
+										</div>
+										<div class="info__basket">
+											<img src="images/featured/cart.png" alt="">
+											<span>634</span>
+										</div>
 									</div>
-									<div class="info__basket">
-										<img src="" alt="">
-									</div>
-								</div>
-								<div class="about-item__star">
 									<div class="rate-star"></div>
 								</div>
 							</div>
 						</div>
+
 						<div class="featured__slider-item">
-							<img src="images/featured/img.jpg" alt="">
+							<div class="product__image-box">
+								<img src="images/featured/img.jpg" alt="">
+								<div class="works__inner-link">
+									<a href="#">More Info</a>
+									<a href="#">Live Demo</a>
+								</div>
+							</div>
 							<div class="about-item">
 								<div class="about-item__title">
 									One Page Resume Template
 								</div>
-
 								<a class="about-item__link user" href="#">
 									<img class="user-img" src="images/featured/user.jpg" alt="">
 									<span>AazzTech</span>
 								</a>
-
-
 								<a class="about-item__link cattegory" href="#">
 									<img class="cattegory-img" src="images/featured/Forma 1 copy 3.png" alt="">
 									<span>WordPress</span>
 								</a>
-
-								<div class="about-item__text">
+								<p class="about-item__text">
 									Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
 									aliquet congue
 									placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
 									aliquet congue justo
 									ut scelerisque.
-								</div>
+								</p>
 								<div class="about-item__tags">
 									<a href="#">
 										website
@@ -312,46 +330,51 @@
 									</a>
 								</div>
 								<div class="about-item__info">
-									<a class="info__prise" href="#">
-										$10 - $50
-									</a>
-									<div class="info__likes">
-										<img src="" alt="">
+									<div class="about-item__info__inner">
+										<a class="info__prise" href="#">
+											$10 - $50
+										</a>
+										<div class="info__likes">
+											<img src="images/featured/heart.png" alt="">
+											<span>46</span>
+										</div>
+										<div class="info__basket">
+											<img src="images/featured/cart.png" alt="">
+											<span>634</span>
+										</div>
 									</div>
-									<div class="info__basket">
-										<img src="" alt="">
-									</div>
-								</div>
-								<div class="about-item__star">
 									<div class="rate-star"></div>
 								</div>
 							</div>
 						</div>
+
 						<div class="featured__slider-item">
-							<img src="images/featured/img.jpg" alt="">
+							<div class="product__image-box">
+								<img src="images/featured/img.jpg" alt="">
+								<div class="works__inner-link">
+									<a href="#">More Info</a>
+									<a href="#">Live Demo</a>
+								</div>
+							</div>
 							<div class="about-item">
 								<div class="about-item__title">
 									One Page Resume Template
 								</div>
-
 								<a class="about-item__link user" href="#">
 									<img class="user-img" src="images/featured/user.jpg" alt="">
 									<span>AazzTech</span>
 								</a>
-
-
 								<a class="about-item__link cattegory" href="#">
 									<img class="cattegory-img" src="images/featured/Forma 1 copy 3.png" alt="">
 									<span>WordPress</span>
 								</a>
-
-								<div class="about-item__text">
+								<p class="about-item__text">
 									Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
 									aliquet congue
 									placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
 									aliquet congue justo
 									ut scelerisque.
-								</div>
+								</p>
 								<div class="about-item__tags">
 									<a href="#">
 										website
@@ -364,46 +387,51 @@
 									</a>
 								</div>
 								<div class="about-item__info">
-									<a class="info__prise" href="#">
-										$10 - $50
-									</a>
-									<div class="info__likes">
-										<img src="" alt="">
+									<div class="about-item__info__inner">
+										<a class="info__prise" href="#">
+											$10 - $50
+										</a>
+										<div class="info__likes">
+											<img src="images/featured/heart.png" alt="">
+											<span>46</span>
+										</div>
+										<div class="info__basket">
+											<img src="images/featured/cart.png" alt="">
+											<span>634</span>
+										</div>
 									</div>
-									<div class="info__basket">
-										<img src="" alt="">
-									</div>
-								</div>
-								<div class="about-item__star">
 									<div class="rate-star"></div>
 								</div>
 							</div>
 						</div>
+
 						<div class="featured__slider-item">
-							<img src="images/featured/img.jpg" alt="">
+							<div class="product__image-box">
+								<img src="images/featured/img.jpg" alt="">
+								<div class="works__inner-link">
+									<a href="#">More Info</a>
+									<a href="#">Live Demo</a>
+								</div>
+							</div>
 							<div class="about-item">
 								<div class="about-item__title">
 									One Page Resume Template
 								</div>
-
 								<a class="about-item__link user" href="#">
 									<img class="user-img" src="images/featured/user.jpg" alt="">
 									<span>AazzTech</span>
 								</a>
-
-
 								<a class="about-item__link cattegory" href="#">
 									<img class="cattegory-img" src="images/featured/Forma 1 copy 3.png" alt="">
 									<span>WordPress</span>
 								</a>
-
-								<div class="about-item__text">
+								<p class="about-item__text">
 									Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
 									aliquet congue
 									placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
 									aliquet congue justo
 									ut scelerisque.
-								</div>
+								</p>
 								<div class="about-item__tags">
 									<a href="#">
 										website
@@ -416,46 +444,51 @@
 									</a>
 								</div>
 								<div class="about-item__info">
-									<a class="info__prise" href="#">
-										$10 - $50
-									</a>
-									<div class="info__likes">
-										<img src="" alt="">
+									<div class="about-item__info__inner">
+										<a class="info__prise" href="#">
+											$10 - $50
+										</a>
+										<div class="info__likes">
+											<img src="images/featured/heart.png" alt="">
+											<span>46</span>
+										</div>
+										<div class="info__basket">
+											<img src="images/featured/cart.png" alt="">
+											<span>634</span>
+										</div>
 									</div>
-									<div class="info__basket">
-										<img src="" alt="">
-									</div>
-								</div>
-								<div class="about-item__star">
 									<div class="rate-star"></div>
 								</div>
 							</div>
 						</div>
+
 						<div class="featured__slider-item">
-							<img src="images/featured/img.jpg" alt="">
+							<div class="product__image-box">
+								<img src="images/featured/img.jpg" alt="">
+								<div class="works__inner-link">
+									<a href="#">More Info</a>
+									<a href="#">Live Demo</a>
+								</div>
+							</div>
 							<div class="about-item">
 								<div class="about-item__title">
 									One Page Resume Template
 								</div>
-
 								<a class="about-item__link user" href="#">
 									<img class="user-img" src="images/featured/user.jpg" alt="">
 									<span>AazzTech</span>
 								</a>
-
-
 								<a class="about-item__link cattegory" href="#">
 									<img class="cattegory-img" src="images/featured/Forma 1 copy 3.png" alt="">
 									<span>WordPress</span>
 								</a>
-
-								<div class="about-item__text">
+								<p class="about-item__text">
 									Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
 									aliquet congue
 									placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
 									aliquet congue justo
 									ut scelerisque.
-								</div>
+								</p>
 								<div class="about-item__tags">
 									<a href="#">
 										website
@@ -468,22 +501,23 @@
 									</a>
 								</div>
 								<div class="about-item__info">
-									<a class="info__prise" href="#">
-										$10 - $50
-									</a>
-									<div class="info__likes">
-										<img src="" alt="">
+									<div class="about-item__info__inner">
+										<a class="info__prise" href="#">
+											$10 - $50
+										</a>
+										<div class="info__likes">
+											<img src="images/featured/heart.png" alt="">
+											<span>46</span>
+										</div>
+										<div class="info__basket">
+											<img src="images/featured/cart.png" alt="">
+											<span>634</span>
+										</div>
 									</div>
-									<div class="info__basket">
-										<img src="" alt="">
-									</div>
-								</div>
-								<div class="about-item__star">
 									<div class="rate-star"></div>
 								</div>
 							</div>
 						</div>
-
 					</div>
 				</div>
 			</div>
