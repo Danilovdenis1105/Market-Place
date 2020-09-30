@@ -1,6 +1,7 @@
 $grey : #eef1f3;
 $blue : #0674ec;
 $text : #555555;
+$title : #333333;
 
 @mixin f700{
 	font-family: 'Quicksand', sans-serif;
@@ -10,6 +11,11 @@ $text : #555555;
 @mixin f500{
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 500;
+}
+
+@mixin f400{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
 }
 
 @mixin f300{
