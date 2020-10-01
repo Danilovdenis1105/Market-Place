@@ -20,21 +20,13 @@ $(function () {
 		slidesToScroll: 1,
 	})
 
-	$(".featured__rate-star").rateYo({
+	$(".rate-star").rateYo({
 		rating: 5,
 		starWidth: "12px",
-		readOnly: true
+		readOnly: true,
+		spacing: "4px"
 	});
-	$(".followers-feed__item__rate-star").rateYo({
-		rating: 5,
-		starWidth: "12px",
-		readOnly: true
-	});
-	$(".product__rate-star").rateYo({
-		rating: 5,
-		starWidth: "12px",
-		readOnly: true
-	});
+
 	var mixer = mixitup('.products__inner-box');
 
 
