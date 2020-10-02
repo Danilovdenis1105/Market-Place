@@ -1541,13 +1541,28 @@
 			a{
 				width: 42px;
 				height: 42px;
-				background-color: #7347c1;
+				background-image: url(../images/footer/Social-Icon.png);
 				border-radius: 50%;
 			}
 		}
 		li + li{
 			margin-left: 12px;
 		}	
+		.twitter{
+			background-position: -55px 0px;
+		}
+		.google{
+			background-position: -110px 0px;
+		}
+		.pinterest{
+			background-position: -165px 0px;
+		}
+		.linkedin{
+			background-position: -220px 0px;
+		}
+		.ball{
+			background-position: -275px 0px;
+		}
 	}
 	.footer__copy{
 		background-color: #192027;
