@@ -1,40 +1,89 @@
-@import 'vars';
-@import 'fonts';
-html{
+@import "vars";
+@import "fonts";
+html {
 	box-sizing: border-box;
 }
 
 *,
 *::before,
-*::after{
+*::after {
 	box-sizing: inherit;
 }
 
-body{
+html,
+body {
+	height: 100%;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+body {
 	@include f500;
 	font-size: 15px;
 	line-height: 24px;
 	color: $text;
 }
-h1,h2,h3,h4,h5,h6,p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
 	margin: 0;
 	padding: 0;
 	font-size: inherit;
 }
-a{
+a {
 	display: inline-block;
 	text-decoration: none;
 	outline: none;
 }
 
-ul,li{
+ul,
+li {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
-.container{
+.container {
 	max-width: 1170px;
 	margin: 0 auto;
 	padding: 0 15px;
+}
+
+.breadcrumbs {
+	&__list {
+		li {
+			display: inline-block;
+			position: relative;
+			& + li {
+				padding-left: 22px;
+				&::before {
+					content: "/";
+					position: absolute;
+					left: 8px;
+					color: #bfcad7;
+				}
+			}
+			&:last-child {
+				a,
+				span {
+					color: #bfcad7;
+				}
+			}
+		}
+		a {
+			color: #fff;
+		}
+	}
 }
