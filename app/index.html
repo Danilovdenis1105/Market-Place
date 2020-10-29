@@ -24,32 +24,23 @@
 									</a>
 								</div>
 								<div class="header__top-box">
-									<a class="header__btn" href="#">
+									<div class="header__links">
+										<a href="#">Start Selling</a>
+										<a href="#">Forums</a>
+										<a href="#">Help</a>
+									</div>
+									<a class="header__link" href="#">
 										Become a Seller
 									</a>
 									<div class="header__icons">
-										<a class="lnr-alarm" href="#">
-											<span>88</span>
-										</a>
-										<a class="lnr-envelope" href="#">
-											<span>8</span>
-										</a>
 										<a class="lnr-cart" href="#">
 											<span>8</span>
 										</a>
 									</div>
-									<div class="avatar__box">
-										<a class="avatar__link" href="#">
-											<img src="images/content/user.jpg" alt="">
-										</a>
-										<div class="avatar__info">
-											<a class="avatar-name" href="#">
-												Taofiq Hakim
-											</a>
-											<div class="avatar__money">
-												$20.45
-											</div>
-										</div>
+									<div class="header__btn">
+										<a href="#" class="header-login" data-fancybox data-src="#modal-login" href="javascript:;">Login</a>
+										<a href="#" class="header-register" data-fancybox data-src="#modal-register"
+											href="javascript:;">Register</a>
 									</div>
 								</div>
 							</div>
@@ -1524,6 +1515,82 @@
 			</footer>
 		</div>
 
+
+		<div id="modal-register">
+			<div class="modal__title-box">
+				<div class="modal__title">
+					Create Your Account
+				</div>
+				<div class="modal__title-text">
+					Please fill the following fields with appropriate information
+					to register a new MartPlace account.
+				</div>
+			</div>
+			<form>
+				<label>
+					Your Name
+					<input type="text" placeholder="Enter your name..." required>
+				</label>
+				<label>
+					Email Address
+					<input type="text" placeholder="Enter your email address..." required>
+				</label>
+				<label>
+					Username
+					<input type="text" placeholder="Enter your username..." required>
+				</label>
+				<label>
+					Password
+					<input type="password" placeholder="Enter your password..." required>
+				</label>
+				<label>
+					Confirm Password
+					<input type="password" placeholder="Confirm your password..." required>
+				</label>
+				<button class="modal__register-btn" type="submit">Register Now</button>
+			</form>
+			<div class="register__links-login">
+				Already have an account? <a href="#"> Login</a>
+			</div>
+		</div>
+
+
+		<div id="modal-login">
+			<div class="modal__title-box">
+				<div class="modal__title">
+					Welcome Back
+				</div>
+				<div class="modal__title-text">
+					You can sign in with your username
+				</div>
+			</div>
+			<form>
+				<label>
+					Username
+					<input type="text" placeholder="Enter your username..." required>
+				</label>
+				<label>
+					Password
+					<input type="password" placeholder="Enter your password..." required>
+				</label>
+				<input type="checkbox" name="user-licence" id="single" checked>
+				<label class="modal__label-rem" for="single">
+					Remember Me
+				</label>
+				<button class="modal__login-btn" type="submit">Login Now</button>
+			</form>
+			<div class="modal__links-box">
+				<div class="login__links-lost">
+					Lost your
+					<a href="#">username</a>
+					or
+					<a href="#">password?</a>
+				</div>
+				<div class="login__links-register">
+					Don't have an <a href="#">account?</a>
+				</div>
+			</div>
+		</div>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="js/libs.min.js"></script>

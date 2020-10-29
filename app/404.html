@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Test</title>
+		<title>404 Page</title>
 		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/libs.min.css">
 		<link rel="stylesheet" href="css/style.min.css">
@@ -13,7 +13,7 @@
 	<body>
 		<div class="wrapper">
 			<div class="content">
-				<div class="header">
+				<header class="header">
 					<div class="header__top">
 						<div class="container">
 							<div class="header__top-inner">
@@ -24,13 +24,24 @@
 									</a>
 								</div>
 								<div class="header__top-box">
-									<a class="header__btn" href="#">
+									<div class="header__links">
+										<a href="#">Start Selling</a>
+										<a href="#">Forums</a>
+										<a href="#">Help</a>
+									</div>
+									<a class="header__link" href="#">
 										Become a Seller
 									</a>
 									<div class="header__icons">
-										<a class="lnr-alarm" href="#"></a>
-										<a class="lnr-envelope" href="#"></a>
-										<a class="lnr-cart" href="#"></a>
+										<a class="lnr-alarm" href="#">
+											<span>88</span>
+										</a>
+										<a class="lnr-envelope" href="#">
+											<span>8</span>
+										</a>
+										<a class="lnr-cart" href="#">
+											<span>8</span>
+										</a>
 									</div>
 									<div class="avatar__box">
 										<a class="avatar__link" href="#">
@@ -91,7 +102,42 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</header>
+				<section class="search single-product-page"
+					style="background-image: url(images/content/search-bg-category-page.svg);">
+					<div class="container">
+						<div class="search__inner">
+							<div class="breadcrumbs">
+								<div class="breadcrumbs__inner">
+									<ul class="breadcrumbs__list">
+										<li><a href="#">Home</a></li>
+										<li><a href="#">Wordpress</a></li>
+										<li><span>Categoty-page</span></li>
+									</ul>
+								</div>
+							</div>
+							<div class="search__title">
+								Error-404
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="404">
+					<div class="container">
+						<div class="inner-404">
+							<div class="image-404" style="background-image: url(images/404-image.png);">
+							</div>
+							<div class="text-404">
+								Oops! Page Not Found
+							</div>
+							<a href="#">
+								Back to Home
+							</a>
+						</div>
+					</div>
+				</section>
+
+
 			</div>
 
 			<footer class="footer">
