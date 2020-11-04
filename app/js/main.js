@@ -72,7 +72,8 @@ $(function () {
 		return false;
 	});
 
-
+	$('input[type=file],input[type=checkbox], select').styler();
+	$('#single,#multi').styler('destroy');
 
 	var mixer = mixitup('.products__inner-box');
 
