@@ -54,6 +54,10 @@ $(function () {
 		$('.aside__item-title.category-title').toggleClass('open');
 	});
 
+	$('.header__btn-icon').on('click', function () {
+		$('.header__top-box').toggleClass('active');
+	});
+
 	$(".aside__item-title.filter-products-title").on('click', function () {
 		$('.aside__item-dropdown.filter-products-dropdown').toggleClass('dropdown-visible');
 		$('.aside__item-title.filter-products-title').toggleClass('open');

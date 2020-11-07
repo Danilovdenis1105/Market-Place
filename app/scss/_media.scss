@@ -1,0 +1,150 @@
+@media (max-width: 1150px) {
+	.header__links {
+		display: none;
+	}
+	.header__link {
+		margin-left: auto;
+	}
+}
+
+@media (max-width: 950px) {
+	.header__menu-inner {
+		display: block;
+		min-height: 80px;
+		height: auto;
+	}
+	.header__inner-form {
+		margin: 23px 0;
+	}
+	.link__dropdown-box {
+		min-height: 25px;
+		margin-top: 25px;
+	}
+}
+
+@media (max-width: 900px) {
+	.header__link {
+		display: none;
+	}
+	.header__icons {
+		margin-left: auto;
+	}
+}
+
+@media (max-width: 650px) {
+	.header__icon-box.notification,
+	.header__icon-box.envelope {
+		display: none;
+	}
+}
+
+@media (max-width: 600px) {
+	.menu__list {
+		display: none;
+	}
+	.header__inner-form {
+		margin: 0;
+	}
+	.header__menu-inner {
+		display: flex;
+	}
+
+	.menu__btn {
+		display: block;
+		width: 30px;
+		cursor: pointer;
+		& div {
+			height: 3px;
+			background-color: $title;
+			& + div {
+				margin-top: 5px;
+			}
+		}
+	}
+}
+
+@media (max-width: 550px) {
+	.header__top-inner {
+		height: 75px;
+	}
+	.header__logo {
+		margin-left: 60px;
+		img {
+			width: 30px;
+		}
+		a {
+			font-size: 23px;
+		}
+	}
+	.menu__btn {
+		position: absolute;
+		top: 27px;
+	}
+	.header__menu-inner {
+		justify-content: inherit;
+	}
+	.header__top-box {
+		max-height: 75px;
+		position: absolute;
+		left: 100%;
+		right: -100%;
+		transition: all 0.5s;
+		z-index: 2;
+		background-color: #eef1f3;
+		width: auto;
+		&.active {
+			left: 65px;
+			right: 10px;
+		}
+		.header__icons .header__icon::before {
+			font-size: 17px;
+		}
+		.header__icons .header__icon span {
+			min-width: 16px;
+			height: 16px;
+			top: -6px;
+			right: -13px;
+			line-height: 16px;
+		}
+		.avatar__box .avatar__link img {
+			width: 30px;
+			height: 30px;
+		}
+		.avatar__box .avatar__info {
+			padding-left: 7px;
+		}
+		.avatar__box .avatar-name {
+			font-size: 13px;
+			line-height: 20px;
+		}
+		.avatar__box .avatar__money {
+			font-size: 12px;
+		}
+		.avatar__box {
+			margin-left: 35px;
+		}
+	}
+	.header__btn-icon {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 50px;
+		height: 75px;
+		background-color: #eef1f3;
+		z-index: 4;
+		cursor: pointer;
+		&:before {
+			font-family: "Linearicons-Free";
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			font-size: 25px;
+			color: $blue;
+		}
+	}
+}
+
+@media (max-width: 335px) {
+}
